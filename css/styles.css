@@ -1,0 +1,129 @@
+/***************CLASS SELECTOR***************/
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 150%;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 5.625rem;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  margin: 50px auto 0 auto;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a {
+  color: blue;
+  font-family: 'Merriweather', serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: white;
+}
+
+hr {
+  border: dotted #66bfbf 8px;
+  border-bottom: none;
+  margin: 100px auto 100px auto;
+  width: 4%;
+}
+
+p {
+  line-height: 2;
+}
+
+/***************CLASS SELECTOR***************/
+.top-container {
+  background-color: #eaf6f6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.index-img-top-cloud {
+  position: absolute;
+  top: 40px;
+  right: 300px;
+}
+
+.index-img-bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.code {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.baking {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+/*middle-container*/
+.middle-container {
+  margin: 100px 0 100px 0;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+.copyright{
+  color: white;
+  font-size:1rem;
+  padding: 20px 0;
+}
+
+/*bottom-container*/
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.btn {
+  background-color: #66bfbf;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
+  transition-duration: 0.4s;
+}
+
+.btn:hover {
+  background-color: #ad6989;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
